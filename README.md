@@ -1,3 +1,5 @@
+# Oracle ERP Integration Service Wrapper
+
 [![PyPI license](https://img.shields.io/pypi/l/OracleSaaSApiPy.svg)](https://pypi.python.org/pypi/OracleSaaSApiPy/)
 [![PyPI version fury.io](https://badge.fury.io/py/OracleSaaSApiPy.svg)](https://pypi.python.org/pypi/OracleSaaSApiPy/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/OracleSaaSApiPy.svg)](https://pypi.python.org/pypi/OracleSaaSApiPy/)
@@ -27,3 +29,6 @@ Usage:
 - get_ess_job_status: Obtains the request status of the submitted scheduled job
 - load_and_import_data: Uploads a file to the Oracle UCM server based on the document specified and submits the scheduled job to import and process the uploaded file.
 - download_ess_job_execution_details: Downloads the output of Enterprise Scheduling Service job and logs
+
+# TODO
+- extend the API wrapper for other common Oracle Cloud SaaS webservices such as uploading files for HDL, lookup loads, BI publisher etc.
